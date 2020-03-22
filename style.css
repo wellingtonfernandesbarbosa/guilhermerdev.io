@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -10,9 +10,23 @@ body {
     --color-border: #ffffff34;
     --color-nav: #4F4F4F;
     --color-footer: #D3D3D3;
-    --font-staat: 'Staatliches', cursive;
-    --font-os: 'Oswald', sans-serif;
-    --font-ram: 'Rambla', sans-serif;
+    --font-staat: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #2F4F4F;
+}
+
+.service-bground {
+    background-color: #E0EEEE !important;
+}
+
+#serviços {
+    background-color: #F0FFFF !important;
+}
+
+#img-gif {
+    z-index: -1;
 }
 
 
@@ -131,9 +145,9 @@ body {
     height: 200px;
     border-radius: 50%;
     margin: auto;
-    background: url(./assets/foto.jpg) no-repeat;
-    background-size: 200%;
-    background-position: 40% 0;
+    background: url(./assets/foto_profissional_buble.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 30% 0;
 }
 
 .skill .bars p,
