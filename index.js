@@ -28,7 +28,7 @@ var typed = new Typed('#typed', {
     strings: [
         'Web Developer',
         'Desktop Developer',
-        'Database Manager',
+        'Database Manager ',
         'Business Partner'
     ],
     typeSpeed: 50,
@@ -40,7 +40,6 @@ var typed_2 = new Typed('#typed_2', {
     strings: [
         'Web Developer',
         'Freelancer'
-
     ],
     typeSpeed: 50,
     backSpeed: 50,
