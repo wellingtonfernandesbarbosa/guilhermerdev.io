@@ -28,7 +28,7 @@ var typed = new Typed('#typed', {
     strings: [
         'Web Developer',
         'Desktop Developer',
-        'Database Manager ',
+        'Database Manager',
         'Business Partner'
     ],
     typeSpeed: 50,
