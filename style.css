@@ -20,7 +20,9 @@ h1 {
 .container {
     height: 100vh;
 }
-
+#portfolio section {
+    height: 100vh;
+}
 .image-port {
     height: auto;
     width: auto;
