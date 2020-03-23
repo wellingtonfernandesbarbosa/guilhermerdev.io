@@ -17,6 +17,19 @@ h1 {
     color: #2F4F4F;
 }
 
+.container {
+    height: 100vh;
+}
+
+.image-port {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    cursor: zoom-in;
+}
+
 .service-bground {
     background-color: #E0EEEE !important;
 }
