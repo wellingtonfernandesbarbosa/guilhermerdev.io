@@ -22,6 +22,7 @@ h1 {
 }
 #portfolio section {
     height: 100vh;
+    width : 100%;
 }
 .image-port {
     height: auto;
