@@ -42,9 +42,9 @@ function toggle_onclick($win, $navbar, width) {
 
 var typed = new Typed('#typed', {
     strings: [
-        'Front-End Developer',
+        'Desenvolvedor',
         'Business Partner',
-        'Data Scientist'
+        'Cientista de Dados'
     ],
     typeSpeed: 50,
     backSpeed: 50,
