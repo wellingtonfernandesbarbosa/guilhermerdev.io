@@ -37,7 +37,8 @@ h1 {
 .service-bground {
     background-color: #E0EEEE !important;
 }
-
+#portfolio {background: #fff;}
+#footer {background: #fff;}
 #serviços {
     background-color: #F0FFFF !important;
 }
@@ -90,8 +91,9 @@ h1 {
 }
 
 .bgcolor-nav {
-    background-color: var(--color-nav);
+    background-color: #000;
 }
+.curriculo {width: 100%;}
 
 
 /* #global classes */
@@ -140,16 +142,37 @@ h1 {
 
 
 /* site-main */
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+#bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(assets/background.jpg) no-repeat;
+	background-size: cover; 
+}
+
+
 
 .site-banner .banner-area {
     animation-duration: 15s;
-    background: url(./assets/back.gif) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
     position: relative;
 }
-
+.about {background: #fff;}
 .site-banner .banner-area .author {
     margin: 0;
     position: absolute;
