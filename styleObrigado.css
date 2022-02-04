@@ -4,6 +4,10 @@
    width: 100%;
    position: relative;
 }
+
+#bg_video{
+   filter: blur(2px) grayscale(0.6);
+}
 .jumbotron{
    margin-top: 10rem;
    background-color: #00000099;
