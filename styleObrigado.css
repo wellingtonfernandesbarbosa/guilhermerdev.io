@@ -1,0 +1,23 @@
+.site-background .banner-area {
+   animation-duration: 15s;
+   background-size: cover;
+   width: 100%;
+   position: relative;
+}
+.jumbotron{
+   margin-top: 10rem;
+   background-color: #00000099;
+   color: #fff;
+}
+.jumbotron p,h1,i {
+   color: #fff !important;
+}
+
+.jumbotron a{
+   color: #fff !important;
+   text-decoration: none;
+}
+.jumbotron a:hover{
+   color: #fff !important;
+   text-decoration: none;
+}
