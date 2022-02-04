@@ -140,7 +140,19 @@ h1 {
     width: 1000px !important;
 }
 
-
+.carousel-indicators li{
+    background-color: #000 !important;
+}
+.portf{
+    font-size: 48px;
+    text-align: center;
+    color: black !important;
+}
+.portfp{
+    font-size: 24px;
+    text-align: center;
+    color: black !important;
+}	
 /* site-main */
 video {
     object-fit: cover;
@@ -163,17 +175,7 @@ video {
 	background: url(assets/background.jpg) no-repeat;
 	background-size: cover; 
 }
-.prev{
-    float: left;
-    font-size: 40px;
-    margin-bottom: 8px;
-}
 
-.next{
-    float: right;
-    font-size: 40px;
-    margin-bottom: 8px;
-}
 
 
 .site-banner .banner-area {
