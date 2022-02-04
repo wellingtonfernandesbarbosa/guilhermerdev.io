@@ -13,6 +13,13 @@
    color: #fff !important;
 }
 
+.jumbotron h1{
+   font-size: 3rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 1rem;
+}
+
 .jumbotron a{
    color: #fff !important;
    text-decoration: none;
